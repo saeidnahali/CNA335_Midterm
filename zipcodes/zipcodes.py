@@ -8,7 +8,7 @@ dbname = "zipcodes"
 
 engine = create_engine("mysql+pymysql://{user}:{pw}@{host}/{db}".format(host=hostname, db=dbname, user=uname, pw=pwd))
 
-tables = pandas.read_csv(r"D:\CNA\CNA335\Week 6\zip_code_database.csv")
+tables = pandas.read_csv(r"D:\GitHub\CNA335_Midterm\zip_code_database.csv")
 
 
 connection = engine.connect()
